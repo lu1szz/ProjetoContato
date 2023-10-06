@@ -1,0 +1,35 @@
+#contato-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contato-lista li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#contato-lista li:hover {
+    background-color: #f0f0f0;
+}
+
+#contato-form {
+    margin-bottom: 20px;
+}
+
+#mostrar-contatos,
+#ocultar-contatos {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #4763ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#mostrar-contatos:hover,
+#ocultar-contatos:hover {
+    background-color: #45a049;
+}
